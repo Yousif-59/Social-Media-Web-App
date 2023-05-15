@@ -1,0 +1,56 @@
+.profileInfo{
+    flex: 5;
+}
+
+.profileInfoWrapper {
+    padding: 20px;
+}
+
+.profileInfoImg {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+.profileInfoImg.show {
+    opacity: 1;
+}
+
+.profileInfoBio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileInfoName {
+    margin-bottom: 20px;
+}
+
+.personInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.personLink {
+    text-decoration: none;
+    color:  navy;
+}
+
+.personLink:hover {
+    color: tomato;
+}
+
+.personName {
+    font-weight: bold;
+}
+
+.teamProjectInfo {
+    text-align: center;
+    color: teal;
+}

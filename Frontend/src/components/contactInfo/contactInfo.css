@@ -1,0 +1,150 @@
+.contactInfo{
+    flex: 5;
+}
+
+.contactInfoWrapper {
+    padding: 20px;
+}
+
+.contactInfoTitle{
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contactUsSubtitles {
+    text-align: center;
+    color:darkblue;
+}
+
+.compliments {
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.complaints{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+.compliments-text {
+    font-size: 16px;
+    color: tomato;
+    font-weight: bold;
+
+        transform: translateX(-100%);
+        animation-name: slideInLeft;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.complaints-text {
+    font-size: 16px;
+    color: tomato;
+    font-weight: bold;
+
+        transform: translateX(100%);
+        animation-name: slideInRight;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.compliments-container input[type=submit],
+.complaints-container input[type=submit] {
+    background-color:cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+.compliments-container input[type=submit]:hover,
+.complaints-container input[type=submit]:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.complaints-container input[type=text],
+.complaints-container textarea,
+.complaints-container label,
+.complaints-container input, 
+.compliments-container input[type=text],
+.compliments-container textarea,
+.compliments-container label,
+.compliments-container input {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+  .complaints-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 290px;
+    background-color:aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+  
+  }
+
+  .compliments-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 290px;
+    background-color:aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+  
+  }
